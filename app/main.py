@@ -1,4 +1,5 @@
 from datetime import timedelta
+from typing import Union
 from fastapi import FastAPI, HTTPException, Depends, status
 from sqlalchemy.orm import Session
 from fastapi.security import OAuth2PasswordRequestForm
